@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projrct One</title>
+</head>
+<body>
+
+	<form action="" method="post">
+		<div>
+		<label for="uname">Name:</label>
+		<input type="text" name="username" id="uname" required=""placeholder="enter name" maxlength="25">
+
+		<label for="uemail">Email Id:</label>
+		<input type="email" name="userEmail" id="uemail" required="" value="test@example.com" autofocus="" >
+
+		<label for="password">Password:</label>
+		<input type="password" name="userpassword" id="password" required="" minlength="6">
+		</div><br><br>
+        
+        <label for="date">Event date</label>
+		<input type="date" name="Eventdate" id="date" required="">
+		
+		
+
+		<label for="category">Category:</label>
+        <select id="category" required="">
+			<option value="student">Student</option>
+			<option value="employee">Employee</option>
+			<option value="freelancer" selected="">Freelancer</option>
+			
+		</select>
+         
+         <div>
+         <p >Select no of tickets:</p>
+
+                  <label for="tick1">1 ticket</label>
+                  <input type="radio" name="tickets" id="tick1"><br>
+
+
+                  <label for="tick2">2 tickets</label>
+                  <input type="radio" name="tickets" id="tick2" checked=""><br>
+
+
+                  <label for="tick3">3 tickets</label>
+                  <input type="radio" name="tickets" id="tick3"><br>
+
+        </div>
+        <label for="payment">Online payment</label> 
+        <input type="checkbox" name="payment" id="payment"><br><br>
+         
+         <label for="note">Notes-</label><br>
+        <textarea rows="10px" cols="30px" placeholder="feedback here" id="note"></textarea> <br><br>
+
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" name="reset" value="reset">
+
+
+
+
+         
+
+	</form>
+
+</body>
+</html>

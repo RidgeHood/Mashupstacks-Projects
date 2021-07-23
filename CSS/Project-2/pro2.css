@@ -1,0 +1,16 @@
+
+body{ background-color: #F0EAE9;
+font-family: 'Open Sans', sans-serif;}
+
+
+div{ border-radius:0.8em;
+	background-color: white;
+	padding:2em;
+	width:600px;
+	margin: auto;
+	margin-top:5em;
+	box-shadow: 2px 3px 7px 2px grey;
+
+   }
+
+		  

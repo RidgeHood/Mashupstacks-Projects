@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	 <style type="text/css">
+
+
+	 	body{
+	 		background-color: #F5F4F3;
+	 		color:#4F78B0;
+	 		font-family: 'Montserrat', sans-serif;
+
+	 	}
+
+	 table,th,td{
+	 	border:1px solid grey;
+	 }
+
+	 table{
+	 	border-collapse: collapse;
+         }
+
+	 	.table-action i {
+	 		letter-spacing:0.7rem;
+
+	 	}
+	 	.fa-eye{color:#00DAEE;}
+	 	.fa-pencil{color:#F6F500;}
+	 	.fa-trash{color:#EC1D00;}
+	 	.fa-search{color:grey;}
+
+	 	#outerMain{
+	 		background-color: white;
+	 		position: relative;
+	 		margin: 100px auto;
+	 		width: 60%;
+	 		padding: 10px;
+	 		
+
+	 	
+	 	}
+
+	 	table{
+	 		margin:auto;
+	 		width:100%;
+
+	 	}
+
+	 	th,td{
+	 		height:2rem;
+	 		text-align: left;
+	 		padding-left: 10px;
+	 	}
+
+	 	.action-td{text-align: center;}
+	 
+
+	 	span{display: inline-block;}
+
+	 	#button{
+	 		
+	 		border:none;
+	 		border-bottom:1px solid grey; 
+	 		padding: 2px;
+	 		
+	 	}
+	 	*:focus{
+	 		outline: none;
+	 	}
+
+	 	input{
+	 		border:none;
+	 	}
+
+	 	button{
+	 		background-color: white;
+	 		border: none;
+	 		color: grey;
+	 	}
+	 	#top{
+	 		padding:1.5rem 0 ; 
+	 		display: flex;
+
+	 		justify-content: space-between;
+            }
+
+	 	h3{margin: 0;}
+
+	 	.page button:nth-child(4) {
+	 		background-color:#00DAEE;
+	 		border-radius:50%;
+	 		color:white;
+	 		width:1.8rem;
+	 		height:1.8rem; 
+	 	}
+
+        .bottom div span{font-weight:500;}
+
+       .bottom {display:flex;
+       	justify-content: space-between;
+       	padding: 10px 0;}
+         
+        .select{
+         	position: relative;
+         }
+
+         .select div{
+         	position: absolute;
+         	width:15px; 
+         	left:70px;
+         	background-color:white;
+         	pointer-events:none; 
+         }
+
+
+       	select{border:none;
+       		border-bottom:1px solid grey;
+       		padding-right: 0.5rem;
+       		color: inherit;
+       		font-size: inherit;
+       		}
+
+       		th{font-weight: 600;}
+
+       	
+
+
+       	h3 span:nth-child(1){
+       		font-weight: 500;
+
+       	}
+
+       	h3 span:nth-child(2){
+       		font-weight: 700;
+       	}
+	 
+	 </style>
+</head>
+<body>
+	
+
+	<div id="outerMain">
+       
+       <div id="top">
+
+
+       	<div class="select" >
+       		<div> <i class="fa fa-caret-down"></i></div>
+       	 	<label for="entries">Show</label>
+       	    <select id="entries">
+       		<option value="1">1</option>
+       		<option value="2">2</option>
+       		<option value="3">3</option>
+       		<option value="4">4</option>
+       		<option value="5" selected="">5</option>
+        	</select>
+          	<label for="entries">entries</label>
+        </div>
+
+       	<h3><span>Customer</span> <span>Details</span ></h3>
+
+
+
+       	<div id="button"><button><i class="fa fa-search"></i></button><input id="search" size="10" type="search" placeholder="Search..." ></div>
+         
+         
+     </div>
+		
+		<table>
+		
+		
+			<tr>  <th>#</th> <th>Name <i class="fa fa-sort"></i></th> <th>Address</th> <th>City <i class="fa fa-sort"></i></th> <th>Pincode</th> <th>Country <i class="fa fa-sort"></i></th> <th>Actions</th> </tr>
+             
+                <tr><td>1 </td><td>Thomas Hardy</td> <td>81 Chiaroscuro Rd</td><td>Portland</td><td>97219</td><td>USA</td>
+             	<td class="action-td"><span class="table-action"><i class="fa fa-eye"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span ></td>  </tr>
+
+             	<tr><td>2 </td><td>Maria Anders</td> <td>Obere Str. 57</td><td>Berlin</td><td>12209</td><td>Germany</td>
+             	<td class="action-td"><span class="table-action"><i class="fa fa-eye"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span ></td>  </tr>
+
+             	<tr><td>3 </td><td>Fran Wilson</td> <td>C/ Araqil,67</td><td>Madrid</td><td>28023</td><td>Spain</td>
+             	<td class="action-td"><span class="table-action"><i class="fa fa-eye"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span ></td>  </tr>
+
+             	<tr><td>4 </td><td>Dominique Perrier</td> <td>25, Rue Lauriston</td><td>Paris</td><td>75016</td><td>France</td>
+             	<td class="action-td"><span class="table-action"><i class="fa fa-eye"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span ></td>  </tr>
+
+             	<tr><td>5 </td><td>Martin Blank</td> <td>Via Monte Bianc 34</td><td>Turin</td><td>10100</td><td>Italy</td>
+             	<td class="action-td"><span class="table-action"><i class="fa fa-eye"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span></td>  </tr>
+             
+		
+		</table>
+
+
+<div class="bottom">
+		<div>showing <span>5</span> of <span>25</span> entries</div>
+
+
+		<div class="page">
+			<button>Previous</button>
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>4</button>
+			<button>5</button>
+			<button>Next</button>
+		</div>
+			
+	
+</div>	
+
+
+
+	</div>
+
+	
+
+
+
+
+</body>
+</html>

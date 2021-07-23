@@ -1,0 +1,15 @@
+.dnone{
+    display:none;
+}
+
+.dinline{
+    display:inline-block;
+}
+.dblock
+{
+    display:block;
+}
+
+form{
+    width:50vw;
+}
