@@ -1,31 +1,20 @@
+a=""
 
-class A:  
-    def __init__(self):  
-         
-        self.name = 'John'  
-        self.age = 23  
-  
-    def getName(self):  
-        return self.name  
-  
-  
-class B:  
-    def __init__(self):  
-          
-        self.name = 'Richard'  
-        self.id = '32'  
-  
-    def getName(self):  
-        return self.name  
-  
-  
-class C(A, B):  
-    def __init__(self):  
-        A.__init__(self)
-        B.__init__(self)  
-  
-    def getName(self):  
-        return self.name  
-  
-C1 = C()  
-print(C1.getName())  
+while a=="":
+    a=input("Enter valid number:")
+    try:
+        a=int(a)
+    except:
+        print("invalid")
+        a=""
+        continue
+    
+
+    
+def oddeven(num):
+    if num%2==0:
+        return "EVEN"
+    else:
+        return "ODD"
+
+print(f"The number you entered is {oddeven(a)}")
