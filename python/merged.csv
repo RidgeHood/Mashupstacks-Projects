@@ -1,0 +1,19 @@
+id,date,location,car name,model name,seller name,seller address,price
+1,10/5/2021,kaimanam,tata,nexon,derik motors,addrss ekm,10L
+2,15/7/2015,papanamcode,honda,civic,lalson motors,addrss mattancherry,7L
+3,15/7/2015,karamana,MG,hector,bigwing motors,addrss fort,6.5L
+4,10/5/2021,alamcode,tata,nexon,derik motors,addrss ekm,10L
+5,15/7/2015,manjeri,honda,civic,lalson motors,addrss mattancherry,7L
+6,15/7/2015,karipur,MG,hector,bigwing motors,addrss fort,6.5L
+7,10/5/2021,lakadi,tata,nexon,derik motors,addrss ekm,10L
+8,15/7/2015,kappad,honda,civic,lalson motors,addrss mattancherry,7L
+9,15/7/2015,beypore,MG,hector,bigwing motors,addrss fort,6.5L
+10,10/5/2021,chempara,tata,nexon,derik motors,addrss ekm,10L
+11,15/7/2015,leh ladak,honda,civic,lalson motors,addrss mattancherry,7L
+12,15/7/2015,kulu manali,MG,hector,bigwing motors,addrss fort,6.5L
+13,10/5/2021,karunagapally,tata,nexon,derik motors,addrss ekm,10L
+14,15/7/2015,mattancherry,honda,civic,lalson motors,addrss mattancherry,7L
+15,15/7/2015,fort kochi,MG,hector,bigwing motors,addrss fort,6.5L
+16,10/5/2021,paripally,tata,nexon,derik motors,addrss ekm,10L
+17,15/7/2015,kollam junction,honda,civic,lalson motors,addrss mattancherry,7L
+18,15/7/2015,monore,MG,hector,bigwing motors,addrss fort,6.5L
